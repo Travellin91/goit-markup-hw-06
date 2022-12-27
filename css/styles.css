@@ -17,6 +17,7 @@
   --modal-background-color: #e7e9fc;
   --transition-dur-and-func: cubic-bezier(0.4, 0, 0.2, 1);
   --header-color: #404bbf;
+  --Privacy-policy: #757575;
 }
 
 h1,
@@ -829,6 +830,40 @@ display: block;
   transition: fill 250ms var(--transition-dur-and-func);
   }
 
+.modal-form-message{
+  resize: none;
+  width: 100%;
+  height: 120px;
+  left: 0px;
+  top: 216px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding: 8px 16px;
+  transition: border-color 250ms var(--transition-dur-and-func);
+}
+
+.modal-form-message::placeholder{
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33
+}
+
+.modal-form-message:focus{
+  outline: none;
+  border-color: rgba(77, 90, 229, 1);
+}
+
+.modal-form-check-desc{
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  color: var(--Privacy-policy);
+}
 
 
 
