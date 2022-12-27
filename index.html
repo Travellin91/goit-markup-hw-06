@@ -434,6 +434,7 @@
         <form class="modal-form"></form>
         <label class="modal-form-field">
           <span class="modal-form-input-desc-name">Name</span>
+          <span class="modal-form-input-wrapper">
           <input
             type="text"
             name="user-name"
@@ -442,10 +443,15 @@
             pattern="[a-zA-Zа-яА-Я]+"
             minlength="2"
           />
+          <svg class="modal-form-input-icon">
+            <use href="./images/icons.svg#icon-user"></use>
+          </svg>
+        </span>
         </label>
         <form class="modal-form"></form>
         <label class="modal-form-field">
           <span class="modal-form-input-desc">Phone</span>
+          <span class="modal-form-input-wrapper">
           <input
             type="tel"
             name="user-phone"
@@ -454,16 +460,25 @@
             pattern="[0-9]{3}-{0-9}{3}-[0-9]{2}-[0-9]{2}"
             title="xxx-xxx-xx-xx"
           />
+          <svg class="modal-form-input-icon">
+            <use href="./images/icons.svg#icon-tel"></use>
+          </svg>
+        </span>
         </label>
         <form class="modal-form"></form>
         <label class="modal-form-field">
           <span class="modal-form-input-desc">Email</span>
+          <span class="modal-form-input-wrapper">
           <input
             type="email"
             name="user-email"
             class="modal-form-input"
             required
           />
+          <svg class="modal-form-input-icon">
+            <use href="./images/icons.svg#icon-email"></use>
+          </svg>
+        </span>
         </label>
         <form class="modal-form"></form>
         <label class="modal-form-field">
